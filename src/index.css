@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.swiper .swiper-pagination-bullet {
+  background: #ffffff;
+}
+.swiper .swiper-button-prev {
+  color: #ffffff7e;
+}
+.swiper .swiper-button-prev:hover {
+  color: #ffffffce;
+}
+.swiper .swiper-button-next {
+  color: #ffffff7e;
+}
+.swiper .swiper-button-next:hover {
+  color: #ffffffce;
+}
+
+/* shadow */
+.shadow-top-only{
+  box-shadow: 0 -5px 5px -5px #999999;
+}
+
+.shadow-all {
+				box-shadow: 0 0 5px #999999;
+			}
